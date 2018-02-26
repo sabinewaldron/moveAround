@@ -39,19 +39,19 @@ function setup() {
 }
 function keyPressed(){
     if(keyCode == 39){//move right right
-      xAcc = .5;
+      xAcc = 1;
       xVelocity = normalVelocity;
   }
   if(keyCode == 37){//move right left
-    xAcc = .5;
+    xAcc = 1;
     xVelocity = -normalVelocity;
   }
   if(keyCode == 38){//move right up
-    yAcc = .5;
+    yAcc = 1;
     yVelocity = -normalVelocity;
   }
   if(keyCode == 40){//move right down
-    yAcc = .5;
+    yAcc = 1;
     yVelocity = normalVelocity;
   }
 }
